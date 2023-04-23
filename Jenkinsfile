@@ -14,10 +14,10 @@ pipeline{
         }
         stage('create docker image'){
             steps{
-                sh "docker build -t siddeshg672/devopsapp:latest ."
-                sh "docker tag siddeshg672/devopsapp:latest siddeshg672/devopsapp:test-deploy_${BUILD_NUMBER}"
-                sh "docker push siddeshg672/devopsapp:test-deploy_${BUILD_NUMBER}"
-                sh "ls -lart && pwd"
+                sh "docker build -t kumara/devopsapp:latest ."
+                sh "docker tag kumarcc1/devopsapp:latest kumara/devopsapp:test-deploy_${BUILD_NUMBER}"
+                sh "docker push kumarcc1/devopsapp:test-deploy_${BUILD_NUMBER}"
+                
             }
         }
     }
