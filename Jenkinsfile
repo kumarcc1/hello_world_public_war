@@ -17,6 +17,7 @@ pipeline{
                 sh "docker build -t kumara/devopsapp:latest ."
                 sh "docker tag kumarcc1/devopsapp:latest kumara/devopsapp:test-deploy_${BUILD_NUMBER}"
                 sh "docker push kumarcc1/devopsapp:test-deploy_${BUILD_NUMBER}"
+                sh "ls -lart"
                 
             }
         }
