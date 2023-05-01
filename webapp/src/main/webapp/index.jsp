@@ -3,9 +3,9 @@
 <body>
 
 <h1 style="background-color:powderblue;">Welcome To DevOps</h1>
-<p style="background-color:Orange;">Welcome to Learning hub Vilok K and Sanvi K.</p>
+<p style="background-color:Orange;">Welcome to CICD complet workflow </p>
 <p style="background-color:MediumSeaGreen;">Welcome to Docker Voulume creation.</p>
-<p style="background-color:MediumSeaGreen;">CICD for Tomacat.</p>
+
 
 </body>
 </html>
